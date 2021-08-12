@@ -47,13 +47,14 @@ html {
 
 .list li {
   position: relative;
-  margin-bottom: 10px; }
+  margin-bottom: 14px;
+  margin-left: 20px; }
   .list li:before {
     content: '';
     position: absolute;
     width: 6px;
     height: 6px;
-    left: -14px;
+    left: -19px;
     top: 6px;
     background-color: white; }
 
@@ -63,7 +64,7 @@ html {
   justify-content: space-between;
   width: 90%; }
   .form input {
-    background: #214568;
+    background: rgba(33, 69, 104, 0.75);
     padding: 14px 20px;
     color: #fff;
     border: none;
@@ -72,10 +73,10 @@ html {
     font-size: 16px;
     line-height: 20px; }
     .form input:hover {
-      background: #18324c; }
+      background: rgba(24, 50, 76, 0.75); }
     .form input:focus {
-      background: #rgb 24, 50, 76;
-      outline: 2px dashed #18324c; }
+      background: rgba(24, 50, 76, 0.75);
+      outline: 2px dashed rgba(24, 50, 76, 0.85); }
     .form input::-moz-placeholder {
       color: white; }
     .form input::-webkit-input-placeholder {
@@ -89,7 +90,7 @@ html {
     padding: 14px 20px;
     resize: none;
     height: 84px;
-    background: #214568;
+    background: rgba(33, 69, 104, 0.75);
     color: #fff;
     outline: none;
     font-weight: 600;
@@ -97,10 +98,10 @@ html {
     line-height: 20px;
     margin-top: 10px; }
     .form__text:hover {
-      background: #18324c; }
+      background: rgba(24, 50, 76, 0.75); }
     .form__text:focus {
-      background: #18324c;
-      outline: 2px dashed #18324c; }
+      background: rgba(24, 50, 76, 0.75);
+      outline: 2px dashed rgba(24, 50, 76, 0.85); }
     .form__text::-moz-placeholder {
       color: white; }
     .form__text::-webkit-input-placeholder {
@@ -213,12 +214,12 @@ html {
 
 .intro {
   width: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   color: white;
   background: url(../img/intro/1.jpg) repeat-x 0 100% fixed;
-  background-size: cover;
   animation: city 30s linear infinite;
   -webkit-animation: city 30s linear infinite; }
 
@@ -256,7 +257,7 @@ html {
     font-size: 25px;
     line-height: 32px; }
   .intro__button {
-    margin-top: 10px;
+    margin-top: 30px;
     color: white; }
 
 .benefits__content {
@@ -372,7 +373,7 @@ html {
       background-image: url(../img/scope/1.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: left -452px top -40px;
+      background-position: left -510px top -84px;
       width: 100%;
       height: 100%;
       top: 0; }
@@ -405,13 +406,13 @@ html {
   .backconnect__text p {
     margin: 0;
     margin-bottom: 10px;
-    background-color: #18324c;
+    background-color: rgba(24, 50, 76, 0.88);
     display: inline-block;
     padding: 5px 10px;
     color: white; }
 
 .footer {
-  background: linear-gradient(90deg, #18324c 0%, #214568 100%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(90deg, #122435 0%, #214568 100%, rgba(255, 255, 255, 0) 100%);
   padding: 10px 0; }
   .footer__content {
     display: flex;
